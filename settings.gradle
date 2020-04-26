@@ -1,0 +1,2 @@
+rootProject.name='kalkulator_projectbitlabs2'
+include ':app'
