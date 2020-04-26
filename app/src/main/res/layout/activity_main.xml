@@ -53,12 +53,12 @@
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="65dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="64dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Result"
-        android:textSize="36sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/min" />
 
@@ -122,5 +122,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/div"
         app:layout_constraintTop_toTopOf="@+id/div" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="109dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#EC0505"
+        android:textColorHighlight="#F80909"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div"
+        app:layout_constraintVertical_bias="0.22" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

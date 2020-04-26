@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val angka2 = input2.text.toString().toInt();
 
         val res = angka1 + angka2
-        result.text = res.toString()
+        hasil.text = res.toString()
 
     }
 
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         val angka2 = input2.text.toString().toInt();
 
         val res = angka1 - angka2
-        result.text = res.toString()
+        hasil.text = res.toString()
 
 
 
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         val angka2 = input2.text.toString().toInt();
 
         val res = angka1 / angka2
-        result.text = res.toString()
+        hasil.text = res.toString()
 
 
 
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         val angka2 = input2.text.toString().toInt();
 
         val res = angka1 * angka2
-        result.text = res.toString()
+        hasil.text = res.toString()
 
 
 
